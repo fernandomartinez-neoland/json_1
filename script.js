@@ -16,3 +16,4 @@ console.log("esto se puede desglosar: ", datafromjson);
 const jsonparseado = JSON.parse(datafromjson)
 
 console.log(jsonparseado.nombre)
+
