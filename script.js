@@ -17,3 +17,9 @@ const jsonparseado = JSON.parse(datafromjson)
 
 console.log(jsonparseado.nombre)
 
+const rango = document.getElementById("rango")
+const valor = document.getElementById("valor")
+
+rango.addEventListener("input", () => {
+    valor.textContent = rango.value
+})
